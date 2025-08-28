@@ -1,10 +1,16 @@
 import React from "react";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Testimonials from "../components/Testimonials";
+import TechnologiesUsed from "../components/TechnologiesUsed";
+import FAQ from "../components/Faq";
 
 const Home = () => {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">Welcome to My Website</h2>
-      <p className="text-gray-700">This is the home page.</p>
+      <WhyChooseUs />
+      <TechnologiesUsed />
+      <FAQ />
+      <Testimonials />
     </div>
   );
 };
