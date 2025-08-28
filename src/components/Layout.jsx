@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./Footer";
+import WhyChooseUs from "./WhyChooseUs";
 
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
+      <WhyChooseUs />
       <main className="flex-grow">{children}</main>
       <Footer />
     </div>
